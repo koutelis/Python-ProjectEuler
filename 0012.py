@@ -20,21 +20,25 @@ What is the value of the first triangle number to have over five hundred divisor
 """
 
 def factors(number):
-    count = 0
-    for i in range(1, number+1):
+    count = 1  # count for itself as a factor
+    for i in range(1, number):
         if number % i == 0:
             count += 1
     return count
 
+def triangular_num(number):
+	return int((number * (number + 1)) / 2)
+
 target = 500
-counter = 0
 n = 5200
 
+counter = 0
 while counter <= target:
-    triangular_num = int((n * (n + 1)) / 2)
-    counter = factors(triangular_num)
-    print('current number of factors: {} for number {}'.format(counter, triangular_num))
+    current_num = triangular_num(n)
+    counter = factors(current_num)
+    print('current number of factors: {} for number {}'.format(counter, current_num))
     n += 1
     
 print(triangular_num)
-# left on 25000000
+
+# 76576500

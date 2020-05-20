@@ -1,33 +1,33 @@
 # PROJECT EULER SOLVED PROBLEMS
 ## https://projecteuler.net/
 
-* 1: Multiples of 3 and 5
-* 2: Even Fibonacci numbers
-* 3: Largest prime factor
-* 4: Largest palindrome product
-* 5: Smallest multiple
-* 6: Sum square difference
-* 7: 10001st prime
-* 8: Largest product in a series
-* 9: Special Pythagorean triplet
-* 10: Summation of primes
-* 11: Largest product in a grid
-* 12: Highly divisible triangular number (*incomplete*)
-* 13: Large sum
-* 14: Longest Collatz sequence
-* 15: Lattice paths
-* 16: Power digit sum
-* 17: Number letter counts
-* 18: Maximum path sum I (*incomplete*)
-* 19: Counting Sundays
-* 20: Factorial digit sum
-* 21: Amicable numbers
-* 22: Names scores
-* 23: Non-abundant sums
-* 24: Lexicographic permutations
-* 25: 1000-digit Fibonacci number
-* 26: 
-* 27: 
-* 28: 
-* 29: Distinct powers
-* 30: 
+* 0001: Multiples of 3 and 5
+* 0002: Even Fibonacci numbers
+* 0003: Largest prime factor
+* 0004: Largest palindrome product
+* 0005: Smallest multiple
+* 0006: Sum square difference
+* 0007: 10001st prime
+* 0008: Largest product in a series
+* 0009: Special Pythagorean triplet
+* 0010: Summation of primes
+* 0011: Largest product in a grid
+* 0012: Highly divisible triangular number
+* 0013: Large sum
+* 0014: Longest Collatz sequence
+* 0015: Lattice paths
+* 0016: Power digit sum
+* 0017: Number letter counts
+* 0018: Maximum path sum I (*incomplete*)
+* 0019: Counting Sundays
+* 0020: Factorial digit sum
+* 0021: Amicable numbers
+* 0022: Names scores
+* 0023: Non-abundant sums
+* 0024: Lexicographic permutations
+* 0025: 1000-digit Fibonacci number
+* 0026: 
+* 0027: 
+* 0028: 
+* 0029: Distinct powers
+* 0030: 

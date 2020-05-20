@@ -30,3 +30,28 @@ Find the maximum total from top to bottom of the triangle below:
 NOTE: As there are only 16384 routes, it is possible to solve this problem by trying every route. However, Problem 67, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o)
 """
 
+def route(rows):
+	row_index = 0
+	while row_index < len(rows) - 1:
+		current_row = rows[row_index]
+		for i, num1 in enumerate(current_row):
+			next_row = rows[row_index + 1][i:i+2]
+			max_num = 0
+			max_index = 0
+			for i, num2 in enumerate(next_row):
+				if num2 > max_num:
+					max_num = num2
+					max_index = i
+			print(max_num)
+
+		print('next')
+		row_index += 1
+
+
+with open('files/0018_triangle.txt', 'r') as f:
+	triangle = []
+	for row in f:
+		triangle.append(list(map(int, row.split())))
+
+print(triangle)
+route(triangle)
