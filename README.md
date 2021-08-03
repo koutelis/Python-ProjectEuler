@@ -18,7 +18,7 @@
 * 0015: Lattice paths
 * 0016: Power digit sum
 * 0017: Number letter counts
-* 0018: Maximum path sum I (*incomplete*)
+* 0018: Maximum path sum I
 * 0019: Counting Sundays
 * 0020: Factorial digit sum
 * 0021: Amicable numbers
@@ -31,3 +31,5 @@
 * 0028: 
 * 0029: Distinct powers
 * 0030: 
+
+* 0067: Maximum path sum II
