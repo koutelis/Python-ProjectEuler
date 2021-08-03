@@ -88,7 +88,7 @@ def read_file(filepath):
 if __name__ == "__main__":
     # get list of Nodes from input
     all_nodes = []
-    for line in read_file('./0067_triangle.txt').split('\n'):
+    for line in read_file('./files/0067_triangle.txt').split('\n'):
         nums = line.split()
         depth = len(nums) - 1
         all_nodes += [Node(int(num), depth) for num in nums]
